@@ -45,6 +45,15 @@ input {
     background-color: #CF000F;
     border-color: #CF000F;
 }
+.btn-create-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+.btn-create {
+  border: 1px solid grey;
+  border-radius: 5px;
+}
 
 .quantity {
   margin: 0 5px;
@@ -61,6 +70,12 @@ input {
 }
 .price-footer {
   display: flex;
-  justify-content: center;
-  margin-top:50px;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.products-total-price {
+  margin-top: 20px;
 }
